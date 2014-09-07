@@ -1,3 +1,6 @@
+# Thunyathorn Vararaksapong 5631258721
+# Maneerat Wongjaroenporn 5631309021
+
 require 'csv'
 
 student = CSV.read('data.csv', {:converters => :numeric, :headers => true, :header_converters => :symbol})
